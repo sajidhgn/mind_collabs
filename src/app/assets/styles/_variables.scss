@@ -1,0 +1,343 @@
+
+// Custom Fonts
+
+@font-face {
+    font-family: 'Albra TRIAL Thin TRIAL';
+    src: url('../fonts/AlbraTRIAL-Thin.eot');
+    src: url('../fonts/AlbraTRIAL-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbraTRIAL-Thin.woff2') format('woff2'),
+        url('../fonts/AlbraTRIAL-Thin.woff') format('woff'),
+        url('../fonts/AlbraTRIAL-Thin.ttf') format('truetype'),
+        url('../fonts/AlbraTRIAL-Thin.svg#AlbraTRIAL-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+  font-family: 'Albra';
+  src: url('../fonts/../fonts/AlbraLight.eot');
+  src: url('../fonts/../fonts/AlbraLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/../fonts/AlbraLight.woff2') format('woff2'),
+      url('../fonts/../fonts/AlbraLight.woff') format('woff'),
+      url('../fonts/../fonts/AlbraLight.ttf') format('truetype'),
+      url('../fonts/../fonts/AlbraLight.svg#AlbraLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Albra';
+  src: url('../fonts/AlbraBold.eot');
+  src: url('../fonts/AlbraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/AlbraBold.woff2') format('woff2'),
+      url('../fonts/AlbraBold.woff') format('woff'),
+      url('../fonts/AlbraBold.ttf') format('truetype'),
+      url('../fonts/AlbraBold.svg#AlbraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Albra';
+  src: url('../fonts/AlbraMedium.eot');
+  src: url('../fonts/AlbraMedium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/AlbraMedium.woff2') format('woff2'),
+      url('../fonts/AlbraMedium.woff') format('woff'),
+      url('../fonts/AlbraMedium.ttf') format('truetype'),
+      url('../fonts/AlbraMedium.svg#AlbraMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Albra';
+  src: url('../fonts/AlbraSemi.eot');
+  src: url('../fonts/AlbraSemi.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/AlbraSemi.woff2') format('woff2'),
+      url('../fonts/AlbraSemi.woff') format('woff'),
+      url('../fonts/AlbraSemi.ttf') format('truetype'),
+      url('../fonts/AlbraSemi.svg#AlbraSemi') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Albra';
+  src: url('../fonts/AlbraRegular.eot');
+  src: url('../fonts/AlbraRegular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/AlbraRegular.woff2') format('woff2'),
+      url('../fonts/AlbraRegular.woff') format('woff'),
+      url('../fonts/AlbraRegular.ttf') format('truetype'),
+      url('../fonts/AlbraRegular.svg#AlbraRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SignatureScriptBold';
+  src: url('../fonts/SignatureScriptBold.eot');
+  src: url('../fonts/SignatureScriptBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SignatureScriptBold.woff2') format('woff2'),
+      url('../fonts/SignatureScriptBold.woff') format('woff'),
+      url('../fonts/SignatureScriptBold.ttf') format('truetype'),
+      url('../fonts/SignatureScriptBold.svg#SignatureScriptBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('../fonts/ChronicleDisplay-Semi.eot');
+  src: url('../fonts/ChronicleDisplay-Semi.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ChronicleDisplay-Semi.woff2') format('woff2'),
+      url('../fonts/ChronicleDisplay-Semi.woff') format('woff'),
+      url('../fonts/ChronicleDisplay-Semi.ttf') format('truetype'),
+      url('../fonts/ChronicleDisplay-Semi.svg#ChronicleDisplay-Semi') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('../fonts/ChronicleDisplay-Roman.eot');
+  src: url('../fonts/ChronicleDisplay-Roman.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ChronicleDisplay-Roman.woff2') format('woff2'),
+      url('../fonts/ChronicleDisplay-Roman.woff') format('woff'),
+      url('../fonts/ChronicleDisplay-Roman.ttf') format('truetype'),
+      url('../fonts/ChronicleDisplay-Roman.svg#ChronicleDisplay-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('../fonts/ProximaNova-Regular.woff') format('woff'),
+      url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+      url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-Regular.eot');
+  src: url('../fonts/PlusJakartaSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+      url('../fonts/PlusJakartaSans-Regular.woff') format('woff'),
+      url('../fonts/PlusJakartaSans-Regular.ttf') format('truetype'),
+      url('../fonts/PlusJakartaSans-Regular.svg#PlusJakartaSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Semibold.eot');
+  src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+      url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+      url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+      url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arion Typeface';
+  src: url('../fonts/ArionTypeface.eot');
+  src: url('../fonts/ArionTypeface.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ArionTypeface.woff2') format('woff2'),
+      url('../fonts/ArionTypeface.woff') format('woff'),
+      url('../fonts/ArionTypeface.ttf') format('truetype'),
+      url('../fonts/ArionTypeface.svg#ArionTypeface') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Scriptina';
+  src: url('../fonts/Scriptina.eot');
+  src: url('../fonts/Scriptina.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Scriptina.woff2') format('woff2'),
+      url('../fonts/Scriptina.woff') format('woff'),
+      url('../fonts/Scriptina.ttf') format('truetype'),
+      url('../fonts/Scriptina.svg#Scriptina') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Taken by Vultures Alternates De';
+  src: url('../fonts/TakenbyVulturesAlternatesDe.eot');
+  src: url('../fonts/TakenbyVulturesAlternatesDe.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TakenbyVulturesAlternatesDe.woff2') format('woff2'),
+      url('../fonts/TakenbyVulturesAlternatesDe.woff') format('woff'),
+      url('../fonts/TakenbyVulturesAlternatesDe.ttf') format('truetype'),
+      url('../fonts/TakenbyVulturesAlternatesDe.svg#TakenbyVulturesAlternatesDe') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Times New Roman Cyr';
+  src: url('../fonts/TimesNRCyrMT.eot');
+  src: url('../fonts/TimesNRCyrMT.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TimesNRCyrMT.woff2') format('woff2'),
+      url('../fonts/TimesNRCyrMT.woff') format('woff'),
+      url('../fonts/TimesNRCyrMT.ttf') format('truetype'),
+      url('../fonts/TimesNRCyrMT.svg#TimesNRCyrMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+// Colors Variables
+$orange: #E1906C;
+$yellow: #FFE283;
+$red: #dc3545;
+$white: #ffffff;
+$black: #000000;
+$black2: #333333;
+$gray: #999999;
+$gray2: #AFAFAF;
+$gray3: #979797;
+$gray4: #ABABAB;
+$gray5: #808080;
+$gray6: #D8D8D8;
+$gray7: #F7F7F7;
+$gray8: #D0BBB2;
+$gray9: #6D6966;
+$cgreen: #4BD09F;
+
+
+
+
+$font-albra : 'Albra';
+$font-bettergrade : 'Better Grade';
+$font-chronicledisplay : 'Chronicle Display';
+$font-plusjakartasans : 'Plus Jakarta Sans';
+$font-proximanova : 'Proxima Nova';
+$font-signature : 'SignatureScriptBold';
+$font-arion : 'Arion Typeface';
+$font-scriptina : 'Scriptina';
+$font-takenbyvulture : 'Taken by Vultures Alternates De';
+$font-timesnew : 'Times New Roman Cyr';
+
+// @mixin bg-color($class, $color) {
+//       .bg-#{$class} {
+//         background-color: $color !important;
+//       }
+// }
+
+@mixin text-color($class, $color) {
+  .text-#{$class} {
+    color: $color !important;
+  }
+}
+
+@include text-color(oranges, $orange);
+
+@mixin albrathin {
+  font-family: 'Albra TRIAL Thin TRIAL';
+  font-weight: 100;
+}
+
+@mixin albralight {
+  font-family: $font-albra;
+  font-weight: 300;
+}
+
+@mixin albra {
+      font-family: $font-albra;
+      font-weight: normal;
+}
+
+@mixin albramedium {
+      font-family: $font-albra;
+      font-weight: 500;
+}
+
+@mixin albrasemi {
+  font-family: $font-albra;
+  font-weight: 600;
+}
+
+@mixin albrabold {
+  font-family: $font-albra;
+  font-weight: bold;
+}
+
+
+@mixin bettergrade {
+  font-family: $font-bettergrade;
+  font-weight: normal;
+}
+
+@mixin chronicaldisplay {
+  font-family: $font-chronicledisplay;
+  font-weight: normal;
+}
+
+@mixin chronicaldisplaylight {
+  font-family: $font-chronicledisplay;
+  font-weight: 300;
+}
+
+@mixin chronicaldisplay {
+  font-family: $font-chronicledisplay;
+  font-weight: normal;
+}
+
+@mixin chronicaldisplayblack {
+  font-family: $font-chronicledisplay;
+  font-weight: 900;
+}
+
+@mixin chronicaldisplaysemi {
+  font-family: $font-chronicledisplay;
+  font-weight: 600;
+}
+
+@mixin proximanova {
+  font-family: $font-proximanova;
+  font-weight: normal;
+}
+
+@mixin proximanovasemi {
+  font-family: $font-proximanova;
+  font-weight: 600;
+}
+
+
+@mixin plusjakartasans {
+  font-family: $font-plusjakartasans;
+  font-weight: normal;
+}
+
+
