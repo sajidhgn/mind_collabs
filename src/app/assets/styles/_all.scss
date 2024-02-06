@@ -95,8 +95,16 @@
 // =================================
 //           HOME PAGE
 // =================================
+.header-section.scrolled{
+    .navbar-expand-lg{
+        background-color: $black3;
+        border-bottom: 1px solid $gray9;
+    }
+}
 
 .header-section {
+
+    
 
     .navbar-expand-lg {
         padding-top: 30px;
@@ -393,6 +401,7 @@
 
     .featuredslider {
         margin-top: 60px;
+        height: 380px;
     }
 
     .slick-prev:before,

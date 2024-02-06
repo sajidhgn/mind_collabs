@@ -1,29 +1,23 @@
 import Banner from "./Banner";
 import JoinTherapist from "./JoinTherapist";
+import FeaturedTherapist from "./FeaturedTherapist";
 import Services from "./Services";
+import Blogs from "./Blogs";
+import PodcastEpisodes from "./PodcastEpisodes";
+import data from "./data.json";
 
-const services_list = [
-    {
-        "title" :"Wellness Resources",
-        "detail" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-    },
-    {
-        "title" :"Shop",
-        "detail" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-    },
-    {
-        "title" :"Events/Trainings",
-        "detail" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-    }
-]
+
 
 const Components=()=>{
 
     return(
         <>
-        <Banner heading="Mental Health, The Unseen Power of Success." subHeading="Find the right therapist for you" content="Search for therapists specialized in helping others" />
-       <JoinTherapist join="join" our="our" heading="THERAPIST <br/> DIRECTORY" content="Advertise your services to people looking for therapy, or counsellors wanting supervision or training" mainBackgroundImage="images/join_bg.png" subBackgroundImage="images/join_1.png"  buttonText="Join therapist directory" buttonLink="/" />
-       <Services our="our" heading="Services" servicesList={services_list} resoureceHeading="Wellness Resources" resourceContent="Taking care of our bodies through physical activity, good nutrition, adequate sleep, and regular preventive care appointments is critical for optimal functioning and overall health. Making even modest changes to these habits can have major effects on your functioning and help you feel your best." buttonText="Book a consultation" buttonLink="/" />
+        <Banner heading={data?.banner?.heading} subHeading={data.banner.subHeading} content={data.banner.content} />
+       <JoinTherapist join={data.join_therapist.join} our={data.join_therapist.our} heading={data.join_therapist.heading} content={data.join_therapist.content} mainBackgroundImage={data.join_therapist.mainBackgroundImage} subBackgroundImage={data.join_therapist.subBackgroundImage}  buttonText={data.join_therapist.buttonText} buttonLink={data.join_therapist.buttonLink} />
+       <Services our={data.services.our} heading={data.services.heading} servicesList={data.services.servicesList} resoureceHeading={data.services.resoureceHeading} resourceContent={data.services.resourceContent} buttonText={data.services.buttonText} buttonLink={data.services.buttonLink} />
+       <FeaturedTherapist heading={data.featured_therapist_list.heading} content={data.featured_therapist_list.content} meet={data.featured_therapist_list.meet} therapiList={data.featured_therapist_list.therapiList} />
+        <Blogs featured_bg={data.blogs.featured_bg} read_our={data.blogs.read_our} heading={data.blogs.heading} content={data.blogs.content} featured_blog_img={data.blogs.featured_blog_img} featured_blog_heading={data.blogs.featured_blog_heading} featured_blog_content={data.blogs.featured_blog_content} featured_blog_link={data.blogs.featured_blog_link} blogs_list={data.blogs.blogs_list} />
+        <PodcastEpisodes latest={data.podcast_list.latest} heading={data.podcast_list.heading} podcasts_list={data.podcast_list.podcasts_list} podcast_main_image={data.podcast_list.podcast_main_image} />
         </>
     )
 }
