@@ -1,0 +1,34 @@
+{
+    "our_mission": {
+        "about": "about us",
+        "heading": "Bringing The Power Of Transformation To Each And Every Person.",
+        "mission_title": "Our mission",
+        "mission_subtitle": "To help people everywhere live their lives with greater clarity, purpose, and passion.",
+        "mission_img": "/images/values_img.png",
+        "mission_detail": "<p>We believe that purpose and performance are an integrated journey. Since 2013 we have been pioneering transformation and peak performance in individuals, teams, and organizations. As the inventor of virtual coaching and the largest mental health and coaching startup in the world, we build and strengthen the mindsets, skills, and behaviors that help people achieve their full potential – in work, life, and all that they do.</p><p>BetterUp is the first Human Transformation Platform that scales whole-person behavior change, integrating into your flow of work to boost organizational performance and measurably impact key business outcomes. With behavioral science, analytics at scale, and evidence-based coaching to affect growth, we bring human transformation to organizations and self-actualization to people worldwide. With behavioral science, analytics at scale, and evidence-based coaching to affect growth, we bring human transformation to organizations</p>"
+    },
+    "our_values": {
+        "heading": "Our Values",
+        "valuesList": [
+            {
+                "heading" :"Courage",
+                "content" :"Find meaning in what we do through crafting excellence."
+            },
+            {
+                "heading" :"Courage",
+                "content" :"Find meaning in what we do through crafting excellence."
+            },
+            {
+                "heading" :"Courage",
+                "content" :"Find meaning in what we do through crafting excellence."
+            },{
+                "heading" :"Courage",
+                "content" :"Find meaning in what we do through crafting excellence."
+            },{
+                "heading" :"Courage",
+                "content" :"Find meaning in what we do through crafting excellence."
+            }
+        ],
+        "value_img": "/images/values_img.png"
+    }
+}

@@ -15,7 +15,7 @@
 
     &:hover {
         background-color: $black2;
-        color: $orange;
+        color: $white;
     }
 }
 
@@ -33,6 +33,12 @@
 .p70 {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+
+.p100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .playbox {
@@ -95,8 +101,8 @@
 // =================================
 //           HOME PAGE
 // =================================
-.header-section.scrolled{
-    .navbar-expand-lg{
+.header-section.scrolled {
+    .navbar-expand-lg {
         background-color: $black3;
         border-bottom: 1px solid $gray9;
     }
@@ -104,7 +110,7 @@
 
 .header-section {
 
-    
+
 
     .navbar-expand-lg {
         padding-top: 30px;
@@ -236,7 +242,7 @@
     color: $gray2;
 }
 
-.border.border-danger.focus-ring-danger{
+.border.border-danger.focus-ring-danger {
     border-color: $red !important;
 }
 
@@ -728,8 +734,8 @@
                     -moz-border-radius: 10px;
                     -ms-border-radius: 10px;
                     -o-border-radius: 10px;
-                    width:35px !important;
-                    height:35px !important;
+                    width: 35px !important;
+                    height: 35px !important;
                 }
 
                 &:hover {
@@ -787,7 +793,7 @@
         display: flex;
 
         .podcast-headphone {
-            margin-top: -46px;
+            margin-top: -38px;
         }
 
         .header-box {
@@ -826,12 +832,13 @@
             h5 {
                 @include chronicaldisplay;
                 font-size: 74px;
-                margin-bottom: 20px;
+
             }
 
             p {
                 @include albralight;
                 font-size: 32px;
+                margin-top: 20px;
             }
         }
     }
@@ -898,6 +905,11 @@
             @include albra;
             margin-top: 10px;
             line-height: 1.2;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .slick-prev,
@@ -1085,14 +1097,16 @@ form {
 }
 
 .contact-section {
-    .header-box{
+    .header-box {
         padding-top: 170px;
         padding-bottom: 40px;
-        h3{
+
+        h3 {
             font-size: 74px;
             @include chronicaldisplay;
         }
-        p{
+
+        p {
             @include albralight;
             font-size: 32px;
             line-height: 1.2;
@@ -1100,7 +1114,7 @@ form {
     }
 
     form {
-       
+
         padding-bottom: 100px;
 
         .form-group {
@@ -1113,7 +1127,7 @@ form {
             }
         }
 
-        select{
+        select {
             appearance: auto;
             -webkit-appearance: auto;
         }
@@ -1133,31 +1147,35 @@ form {
 //           ABOUT US PAGE
 // =================================
 
-.aboutus-section{
+.aboutus-section {
     padding-top: 250px;
     padding-bottom: 100px;
-    .header-box{
+
+    .header-box {
         margin-bottom: 60px;
-        span{
+
+        span {
             font-family: $font-scriptina;
             font-size: 93px;
             color: $yellow;
             line-height: inherit;
         }
-        h3{
+
+        h3 {
             font-size: 63px;
             @include chronicaldisplaysemi;
             line-height: 1.2;
         }
     }
 
-    .our-mission{
-        h4{
+    .our-mission {
+        h4 {
             font-size: 74px;
             @include albralight;
             color: $orange;
         }
-        h5{
+
+        h5 {
             font-size: 32px;
             @include albrathin;
             color: $black2;
@@ -1165,68 +1183,76 @@ form {
             margin-top: 10px;
         }
     }
-    p{
+
+    p {
         font-size: 26px;
         @include albrathin;
         margin-top: 30px;
     }
 }
 
-.our-values{
-    .header-box{
-        h3{
+.our-values {
+    .header-box {
+        h3 {
             font-size: 173px;
             @include albralight;
             text-align: center;
         }
     }
-    .our-values-list{
-        .values-box{
+
+    .our-values-list {
+        .values-box {
             display: flex;
             column-gap: 15px;
-            h6{
+
+            h6 {
                 @include chronicaldisplay;
                 color: $orange;
                 font-size: 32px;
             }
-            span{
+
+            span {
                 font-size: 18px;
                 @include proximanova;
                 color: $gray9;
                 display: block;
                 margin-top: 5px;
             }
-            .number{
+
+            .number {
                 font-size: 30px;
                 @include albralight;
                 color: $orange;
             }
         }
-        .values-box+.values-box{
+
+        .values-box+.values-box {
             margin-top: 30px;
         }
     }
 }
 
 
-.positive-change{
-    h4{
+.positive-change {
+    h4 {
         @include albra;
         font-size: 51px;
         margin-top: 30px;
     }
 }
 
-.rounter-section{
-    .counter-box{
-       height: 230px;
-       padding-top: 65px;
-       margin-top: 30px;
-        h5{
+.counter-section {
+    .counter-box {
+        height: 230px;
+        padding-top: 65px;
+        margin-top: 30px;
+
+        h5 {
             font-size: 51px;
             @include albra;
         }
-        p{
+
+        p {
             font-size: 20px;
             @include proximanova;
             color: $gray5;
@@ -1235,69 +1261,335 @@ form {
     }
 }
 
-.border-yellow{
+.borders-1 {
     border-top: 1px solid $yellow;
 }
 
-.border-orange{
+.borders-2 {
     border-top: 1px solid $yellow;
 }
 
-.border-black{
+.borders-3 {
     border-top: 1px solid $black2;
 }
 
-.border-green{
+.borders-4 {
     border-top: 1px solid $cgreen;
 }
 
-.our-values-two{
-    h5{
+.our-values-two {
+    h5 {
         font-size: 27px;
         @include chronicaldisplay;
         margin-top: 30px;
     }
-    p{
+
+    p {
         font-size: 18px;
         @include proximanova;
         margin-top: 5px;
     }
-    .header-box{
-        h3{
+
+    .header-box {
+        h3 {
             font-size: 133px;
             @include albralight;
         }
     }
 }
 
-.join-directory{
+.join-directory {
     background-color: $yellow;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-h5{
+    display: block;
+
+    h5 {
         font-size: 34px;
         @include albramedium;
         color: $black2;
     }
-    p{
+
+    p {
         font-size: 22px;
         @include albralight;
         margin-top: 25px;
         color: $black2;
     }
-    .join-arrow{
+
+    .join-arrow {
         margin-top: 45px;
     }
-    .join-box{
+
+    .join-box {
         padding: 50px 40px;
     }
-    .col-lg-8{
-        img{
+
+    .col-lg-8 {
+        img {
             border-top-right-radius: 8px;
             border-bottom-right-radius: 8px;
         }
+    }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: $white;
+    width: 45px !important;
+    height: 45px !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: -60px !important;
+}
+
+.swiper-button-next {
+    right: -60px !important;
+}
+
+// Sidebar Menu
+
+.wrapper {
+    padding-left: 256px;
+
+    .content-wrapper {
+        flex: auto;
+        background-color: $white;
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        width: 256px;
+        // width: 62px;
+        min-height: 100vh;
+        background-color: $orange2;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        flex: none;
+        overflow: hidden;
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        .left-icon{
+            width: 22px;
+            height: 22px;
+            background-color: $white;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 22px;
+        }
+
+        .sidebar-menu {
+            position: fixed;
+            
+            left: 0;
+            right: 0;
+            top: 140px;
+            bottom: 0;
+            overflow-y: auto;
+            width: 256px;
+            // width: 62px;
+
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 12px;
+                    border-left: 4px solid transparent;
+                    @include proximanova;
+                    font-size: 15px;
+                    text-transform: capitalize;
+                    color: $white;
+                    padding: 11px 15px;
+                    position: relative;
+
+                    // span{
+                    //     display: none;
+                    // }
+
+                    &:after {
+                        content: '';
+                        width: 16px;
+                        height: 16px;
+                        background: url("/images/ar-icon.svg");
+                        position: center center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        display: block;
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        -o-transform: translateY(-50%);
+                        opacity: .5;
+                        // opacity: 0;
+                    }
+
+                    &:hover {
+                        background-color: rgb(255 255 255 / 13%);
+                        border-left-color: $white;
+                    }
+                }
+            }
+
+        }
+
+        .sidebar-toggle {
+            padding: 30px 15px 25px 18px;
+            cursor: pointer;
+
+            div {
+                position: relative;
+                width: 24px;
+                height: 24px;
+
+                .toggle-icon {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                }
+            }
+        }
+
+        .sidebar-logo {
+            padding: 30px 5px 0 18px;
+            // padding: 30px 5px 0 5px;
+        }
+    }
+
+    .user-detail{
+        display: flex;
+        column-gap: 30px;
+        padding-top: 40px;
+        h5{
+            @include albra;
+            font-size: 31px;
+            color: $black2;
+        }
+        p{
+            @include albrathin;
+            font-size: 17px;
+            color: $black2;
+            line-height: 1.2;
+            margin-top: 5px;
+        }
+    }
+  
+
+    .section-header{
+        margin-top: 100px;
+        h5{
+            @include albralight;
+            font-size: 23px;
+            color: $black2;
+        }
+    }
+
+    .user-form{
+        .form-group{
+            margin-top: 30px;
+            label:first-child{
+                margin-bottom: 5px;
+                display: block;
+            }
+        }
+
+        .checkboxsec{
+           
+            input[type="checkbox"] ,
+            input[type="radio"] {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #ccc;
+                outline: none;
+                cursor: pointer;
+              }
+            
+              /* Style the checked state */
+             
+        }
+        .input-group{
+            flex-wrap: initial !important;
+            .input-group-text {
+                width: 48px;
+                text-align: center;
+                display: block;
+                line-height: 48px;
+                height: 48px;
+                padding: 0;
+                flex: none;
+                border-radius: 0;
+                background-color: $white;
+                color: $gray5;
+            }
+        }
+        .form-control.disabled{
+            background-color:  $white !important;
+        }
+        .dbtn{
+            @include proximanova;
+            img{
+                filter: brightness(0) invert(1);
+                -webkit-filter: brightness(0) invert(1);
+}
+        }
+    }
+
+
+    
+}
+.form-check{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 5px;
+}
+.form-check-input:checked{
+    background-color: $orange2 !important;
+}
+input[type="checkbox"] + label {
+        @include proximanova;
+        font-size: 15px;       
+}
+
+.online-schedule{
+    border-left: 6px solid $orange2;
+    padding-left: 15px;
+    h6{
+        @include proximanovasemi;
+        font-size: 15px;       
+    }
+    p{
+        @include proximanova;
+        font-size: 15px;    
+        margin-top: 10px;
+        color: $gray5;
     }
 }

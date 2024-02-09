@@ -1,0 +1,48 @@
+{
+    "podcasts": {
+        "podcast_bg":"/images/podcast_banner.jpeg",
+        "headphone_img": "/images/podcast_headphone.svg",
+        "latest": "latest",
+        "heading": "Podcasts <span class='text-oranges'>Episodes</span>",
+        "join_community_list": [
+            {
+                "heading": "Join Community",
+                "content" :"Getting Better Podcasts: Stories Of all Mental Health"
+            },
+            {
+                "heading": "",
+                "content" :"Listening to a podcast by a mental health professionals or someone else might make you feel that you are not alone and can be a form of self-care."
+            }
+        ]
+    },
+    "episodes_list": {
+        "heading": "Our most Popular Episodes",
+        "episodes_list": [
+            {
+                "count" : "100",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            },
+            {
+                "count" : "150",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            },
+            {
+                "count" : "300",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            },
+            {
+                "count" : "100",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            },
+            {
+                "count" : "150",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            },
+            {
+                "count" : "300",
+                "heading": "Mindfulness 101: What It Means and How to Use It"
+            }
+        ]
+    }
+   
+}

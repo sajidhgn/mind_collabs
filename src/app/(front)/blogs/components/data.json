@@ -1,0 +1,199 @@
+{
+  "blogs_slider": {
+    "our": "our",
+    "heading": "Featured Blogs",
+    "content": "Real direction, authentic viewpoint, and sincere openness from a genuine individual.",
+    "blogs_list": [
+      {
+        "id":1,
+        "category": "Mental wellness",
+        "heading": "Tips and Tricks for Living With Anxiety",
+        "featured_img": "/images/blog_bg.jpeg",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":2,
+        "category": "Cognitive therapy",
+        "heading": "What Fibromyalgia Looks and Feels Like",
+        "featured_img": "/images/blog_detail_banner.png",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":3,
+        "category": "Couples therapy",
+        "heading": "If You're Feeling Suicidal Right Now",
+        "featured_img": "/images/banner_img.jpeg",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":4,
+        "category": "Addiction Counselor",
+        "heading": "Supporting Someone With Chronic Pain",
+        "contact_banner.png": "/images/contact_banner.png",
+        "blog_img": "/images/values_img.png",
+        "featured_img": "/images/banner_img.jpeg",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":5,
+        "category": "Mental wellness",
+        "heading": "How Research Is Advancing Our Understanding of OCD",
+        "blog_img": "/images/values_img.png",
+        "featured_img": "/images/blog_bg.jpeg",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":6,
+        "category": "Cognitive therapy",
+        "heading": "The Reality of “High Functioning” Depression",
+        "blog_img": "/images/values_img.png",
+        "featured_img": "/images/banner_img.jpeg",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":7,
+        "category": "Couples therapy",
+        "heading": "Taking Community Suicide Prevention to the Next Level",
+        "featured_img": "/images/banner_img.jpeg",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":8,
+        "category": "Addiction Counselor",
+        "heading": "Parenting after Receiving a Schizophrenia Diagnosis",
+        "blog_img": "/images/values_img.png",
+        "featured_img": "/images/banner_img.jpeg",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p><p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      }
+    ]
+  },
+  "blogs_grid": {
+    "heading": "Browser",
+    "blogs_list": [
+      {
+        "id":1,
+        "category": "Mental wellness",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":2,
+        "category": "Cognitive therapy",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":3,
+        "category": "Couples therapy",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":4,
+        "category": "Addiction Counselor",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":5,
+        "category": "Mental wellness",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":6,
+        "category": "Cognitive therapy",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":7,
+        "category": "Couples therapy",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      },
+      {
+        "id":8,
+        "category": "Addiction Counselor",
+        "heading": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "blog_img": "/images/values_img.png",
+        "duration" :"WEEKLY FEATURE",
+        "date" :"JAN 26, 2022",
+        "post_by": "Janet Mercel",
+        "short_description": "Set Emotional and Relational Boundaries by Practicing Emotional Detachment",
+        "long_description": "<p>The simplest and probably oldest way that the internet connected homeowners to designers has been through online directories. Houzz is one. The Franklin Report is another. Homepolish was basically adesigner directory. Though each has a slightly different business model, they all share a basic concept: Collect designer portfolios on one site so clients don’t have to go wandering through the wilds of Google to find a good fit.</p><p>Online directories have created plenty of work for designers, but the model has taken a few knocks over the years. Houzz has had an occasionally testy relationship with the trade. Homepolish crashed and burned. You can sense a wariness among designers around the concept.</p><p>Despite that history, a new crop of directories has emerged in recent years—this time, with a focus on community, shared resources and a sense of solidarity among designers. Though these directories are at least partially set up to attract project leads, it’s worth asking if new business is necessarily the main expectation, or even the draw?</p>"
+      }
+    ]
+  }
+}

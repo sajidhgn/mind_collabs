@@ -3,3 +3,355 @@
    max-width: 1100px;
 }
 }
+
+
+@media (max-width:1199px){
+   .episode-mobile  {
+      img{
+         height: 490px;
+      }
+  }
+  .banner-section{
+   h1{
+      font-size: 65px;
+   }
+  }
+  .therapist-section .join{
+   font-size: 65px;
+  }
+  .therapist-section h2{
+   font-size: 60px;
+  }
+  .therapist-section .our{
+   font-size: 135px;
+  }
+  .therapist-content{
+   padding-top: 70px;
+   padding-bottom: 70px;
+  }
+  .therapist-section p {
+   font-size: 18px;
+   margin-top: 15px;
+   margin-bottom: 50px;
+}
+.header-box h3{
+   font-size: 65px;
+}
+.header-box span{
+   font-size: 65px;
+}
+.services-section .service-box h4{
+   font-size: 35px;
+}
+.services-section .service-box p{
+   font-size: 18px;
+}
+.service-well {
+   margin-top: 30px;
+}
+.services-section .dbtn {
+   margin-top: 20px;
+}
+.header-box p{
+   font-size: 18px;
+}
+.blog-section .header-box span{
+   font-size: 60px;
+}
+.blog-section .header-box h3{
+   margin-top: 20px !important;
+   margin-bottom: 0;
+}
+.blog-section .header-box p{
+   font-size: 23px;
+}
+.featured-detail{
+   .blog-box{
+      margin-bottom: 30px;
+   }
+}
+.podcast-section .header-box h3{
+   font-size: 70px;
+}
+.blog-banner-section .blogslider .slide-box img {
+   height: 390px;
+}
+.blog-banner-section .blogslider {
+   margin-top: 40px;
+}
+.blog-meta.p70 {
+   padding-bottom: 20px;
+}
+.blog-details .blog-meta h4 {
+   margin: 10px 0 10px;
+}
+.aboutus-section {
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+.aboutus-section .header-box span{
+   font-size: 50px;
+}
+.aboutus-section .header-box h3 {
+   font-size: 55px;
+   line-height: 1.1;
+}
+.aboutus-section .our-mission h4{
+   font-size: 55px;
+}
+.aboutus-section p{
+   font-size: 18px;
+}
+.aboutus-section .our-mission h5{
+   font-size: 25px;
+}
+.our-values .header-box h3{
+   font-size: 65px;
+   margin-bottom: 20px;
+}
+.our-values-section{
+   padding-bottom: 70px;
+}
+.positive-change h4{
+   font-size: 45px;
+   line-height: 1;
+}
+.counter-section .counter-box h5{
+   font-size: 45px;
+}
+.counter-section .counter-box p{
+   font-size: 18px;
+   line-height: 1.1;
+}
+.counter-section .counter-box {
+   height: 185px;
+   padding-top: 40px;
+}
+.our-values-two .header-box h3{
+   font-size: 80px;
+}
+.contact-section .header-box{
+   padding-top: 70px;
+   padding-bottom: 10px;
+}
+.contact-section .header-box h3{
+   font-size: 65px;
+}
+.contact-section .header-box p{
+   font-size: 25px;
+}
+.contact-section form{
+   padding-bottom: 70px;
+}
+.podcasts-latest-section .latest-podcasts .podcast-headphone{
+   display: none;
+}
+.podcasts-latest-section .latest-podcasts .header-box span:first-child {
+   font-size: 100px;
+   left: -15px;
+}
+.podcasts-latest-section .latest-podcasts .header-box h3,.podcasts-latest-section .latest-podcasts .header-box h3 span.text-oranges{
+   font-size: 110px;
+}
+.podcasts-latest-section .latest-podcasts .header-box {
+   margin-top: 70px;
+}
+.podcasts-latest-section .join-community-section .join-community h5{
+   font-size: 55px;
+}
+.podcasts-latest-section .join-community-section .join-community p{
+   font-size: 20px;
+}
+}
+
+@media(max-width:991px){
+   .episode-mobile img {
+      height: 420px;
+  }
+  .podcast-btn {
+   padding: 30px 0 70px;
+}
+.aboutus-section .header-box h3{
+   font-size: 45px;
+   line-height: 1;
+}
+.join-directory .join-box {
+   padding: 30px 15px;
+}
+.podcasts-latest-section .latest-podcasts .header-box h3, .podcasts-latest-section .latest-podcasts .header-box h3 span.text-oranges{
+   font-size: 55px;
+}
+.podcasts-latest-section .join-community-section .join-community h5 {
+   font-size: 35px;
+}
+}
+
+@media(max-width:767px){
+   .banner-section h1 {
+      font-size: 40px;
+  }
+  .banner-section .banner-content {
+   margin-top: 25px;
+}
+.banner-section .banner-content form .row [class*=col-] {
+   padding-left: 5px;
+   padding-right: 5px;
+   margin: 3px 0;
+}
+.banner-section .banner-content p {
+   font-size: 16px;
+}
+.services-section .header-box {
+   margin-bottom: 20px;
+}
+.header-box h3 {
+   font-size: 45px;
+}
+.therapist-section .join {
+   font-size: 45px;
+}
+.therapist-section h2{
+   font-size: 45px;
+}
+.therapist-section p {
+   font-size: 14px;
+   margin-bottom: 30px;
+}
+.services-section .service-box p {
+   font-size: 14px;
+}
+.services-section .service-box h4 {
+   font-size: 30px;
+}
+.services-section .service-box p{
+   margin-top: 5px;
+}
+.header-box p {
+   font-size: 15px;
+}
+.blog-section .featured-image img {
+   height: 350px !important;
+}
+.blog-section .blog-feauted-content {
+   padding-top: 50px;
+   padding-bottom: 40px;
+   margin-top: -219px;
+}
+.blog-section .header-box p {
+   font-size: 18px;
+}
+.blog-section .header-box span {
+   font-size: 35px;
+}
+.blog-section .header-box h3 {
+   margin-top: 9px !important;
+}
+.podcast-section .header-box h3 {
+   font-size: 45px;
+}
+.podcast-section .header-box span{
+   font-size: 90px;
+}
+.podcast-section .header-box {
+   margin-bottom: 30px;
+}
+.featuredslider .swiper-button-next,
+.podcast-mobile-box,
+.featuredslider .swiper-button-prev{
+   display: none;
+}
+.featured-section .featuredslider {
+   margin-top: 30px;
+   height: 380px;
+}
+.aboutus-section .header-box {
+   margin-bottom: 45px;
+}
+.aboutus-section .our-mission h4{
+   font-size: 45px;
+}
+.aboutus-section .our-mission h5{
+   font-size: 18px;
+}
+.aboutus-section p {
+   font-size: 14px;
+}
+.our-values-section .our-values .header-box h3{
+   font-size: 45px;
+}
+.our-values .our-values-list .values-box h6{
+   font-size: 30px;
+}
+.our-values .our-values-list .values-box span{
+   font-size: 14px;
+}
+.our-values-list{
+   margin-bottom: 40px;
+}
+.aboutus-section .header-box h3,.aboutus-section .our-mission h4,.our-values-section .our-values .header-box h3{
+   font-size: 35px;
+}
+.aboutus-section .our-mission h5{
+   margin-bottom: 20px;
+}
+.our-mission{
+   margin-bottom: 30px;
+}
+.positive-change h4{
+   margin-top: 0;
+}
+.counter-section .counter-box{
+   margin-top: 0;
+}
+.our-values-two .header-box h3{
+   font-size: 40px;
+   margin-bottom: 30px;
+}
+.counter-section .counter-box {
+   height: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.counter-section .counter-box p,.our-values-two p{
+   font-size: 15px;
+}
+.join-directory p {
+   font-size: 14px;
+   margin-top: 10px;
+}
+.join-directory h5{
+   font-size: 28px;
+}
+.join-directory .join-arrow {
+   margin-top: 25px;
+}
+.join-directory .col-lg-8 img{
+   border-bottom-left-radius: 8px;
+   border-top-right-radius: 0px;
+}
+.contact-section form .form-group {
+   margin-top: 20px;
+}
+.contact-section .header-box h3{
+   font-size: 40px;
+}
+.contact-section .header-box p,.contact-section form .form-group label{
+   font-size: 14px;
+}
+.podcasts-latest-section .join-community-section .join-community p {
+   font-size: 14px;
+}
+.popular-episodes-section {
+   padding-top: 45px;
+}
+.podcasts-latest-section .join-community-section .join-community p {
+   font-size: 16px;
+}
+.podcasts-latest-section .join-community-section {
+   margin-top: 40px;
+}
+.podcasts-latest-section .latest-podcasts .header-box span:first-child {
+   left: 9px;
+   top: 13px;
+}
+}

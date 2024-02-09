@@ -32,12 +32,12 @@ const Footer = () => {
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="footer-list">
                                     <ul>
-                                        <li><Link href="#">Find a therapist</Link></li>
+                                        <li><Link href={routes.contactus}>Find a therapist</Link></li>
                                         <li><Link href="#">Services</Link></li>
                                         <li><Link href="#">Locations</Link></li>
-                                        <li><Link href="#">Contact us</Link></li>
-                                        <li><Link href="#">Blogs</Link></li>
-                                        <li><Link href="#">Podcasts</Link></li>
+                                        <li><Link href={routes.contactus}>Contact us</Link></li>
+                                        <li><Link href={routes.blogs}>Blogs</Link></li>
+                                        <li><Link href={routes.podcasts}>Podcasts</Link></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -50,6 +50,7 @@ const Footer = () => {
                                         <li><Link href="#">Disclaimer</Link></li>
                                         <li><Link href="#">Donate</Link></li>
                                         <li><Link href="#">Resouces</Link></li>
+                                        <li><Link href={routes.userprofile}>User Profile</Link></li>
                                     </ul>
                                 </div>
                             </Col>

@@ -1,0 +1,61 @@
+{
+    "our_mission": {
+        "about": "about us",
+        "heading": "Bringing The Power Of Transformation To Each And Every Person.",
+        "mission_title": "Our mission",
+        "mission_sub_title": "To help people everywhere live their lives with greater clarity, purpose, and passion.",
+        "mission_content": "We believe that purpose and performance are an integrated journey. Since 2013 we have been pioneering transformation and peak performance in individuals, teams, and organizations. As the inventor of virtual coaching and the largest mental health and coaching startup in the world, we build and strengthen the mindsets, skills, and behaviors that help people achieve their full potential – in work, life, and all that they do. ",
+        "mission_img": "/images/blog_post_thumb.png",
+        "quote_title": "Proven effectiveness, positive change",
+        "quote_content": "We take a dynamic, proactive, and personalized approach to transformation — to you as an individual, or you as a group. Through tailored experiences with unparalleled access to coaching, mentorship, and interactive content, our platform transforms the organization by unlocking individual and team potential at scale."
+    },
+    "our_values": {
+        "heading": "Our Values",
+        "value_img": "/images/blog_post_thumb.png",
+        "valuesList": [
+            {
+                "heading": "Empathy",
+                "content": "Innovation starts with understanding."
+            },
+            {
+                "heading": "Empathy",
+                "content": "Innovation starts with understanding."
+            },
+            {
+                "heading": "Empathy",
+                "content": "Innovation starts with understanding."
+            },
+            {
+                "heading": "Empathy",
+                "content": "Innovation starts with understanding."
+            },
+            {
+                "heading": "Empathy",
+                "content": "Innovation starts with understanding."
+            }
+        ]
+    },
+    "counter_list": [
+        {
+            "count": "90",
+            "content": "of members see a reduction in stress"
+        },
+        {
+            "count": "148",
+            "content": "of members see a reduction in stress"
+        },
+        {
+            "count": "181",
+            "content": "of members see a reduction in stress"
+        },
+        {
+            "count": "201",
+            "content": "of members see a reduction in stress"
+        }
+    ],
+    "join_therapist": {
+        "heading": "Join our therapist Directory",
+        "content": "Our therapist members are on greater purpose and passion, at work and in their lives.",
+        "join_img": "/images/banner_img.jpeg"
+    }
+}

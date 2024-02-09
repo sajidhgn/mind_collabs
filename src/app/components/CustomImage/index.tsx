@@ -13,7 +13,7 @@ function CustomImage(props: any) {
           height={height || 0}
           alt={alt || src}
           blurDataURL={src} 
-          placeholder="blur"
+          // placeholder="blur"
           sizes={"100vw"}
           {...rest}
         />

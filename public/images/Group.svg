@@ -6,7 +6,7 @@
             <g id="Group-3" transform="translate(420, 594)">
                 <g id="Group-2" transform="translate(12, 20)">
                     <circle id="Oval" cx="4.36633663" cy="4.36633663" r="3.75270027"></circle>
-                    <line x1="7.48514851" y1="7.48514851" x2="9" y2="9" id="Path-63" stroke-linecap="square"></line>
+                    <line x1="7.48514851" y1="7.48514851" x2="9" y2="9" id="Path-63" strokeLinecap="square"></line>
                 </g>
             </g>
         </g>
