@@ -1,13 +1,22 @@
+"use client";
+import React, {useState} from "react";
 import Sidebar from "./sidebar";
 import FormSection from "./formSection";
 import { Container,Row, Col } from "react-bootstrap";
 
 const Components=()=>{
+    const [isActive, setIsActive] = useState<any>(false);
+
+    const toggleClass = () => {
+        setIsActive((prev:any) => !prev);
+      };
+
+      
 
     return(
-        <div className="wrapper d-flex">
+        <div className={`wrapper d-flex ${isActive ? "" : "active"}`}>
      
-        <Sidebar />
+        <Sidebar actClick={toggleClass} />
 
     <div className="content-wrapper d-flex flex-column">
 

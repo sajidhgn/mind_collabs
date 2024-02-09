@@ -19,10 +19,10 @@ const Footer = () => {
                             <p>We are an online community of mental health professionals seeking to make the experience of finding a
                                 therapist easy.</p>
                             <ul className="footer-social">
-                                <li><Link href="#"> <CustomImage src="images/facebook.svg" alt="facebook" /></Link></li>
-                                <li><Link href="#"> <CustomImage src="images/twitter.svg" alt="twitter" /></Link></li>
-                                <li><Link href="#"> <CustomImage src="images/linkedin.svg" alt="linkedin" /></Link></li>
-                                <li><Link href="#"> <CustomImage src="images/instagram.svg" alt="instagram" /></Link></li>
+                                <li><Link href="#"> <CustomImage src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/facebook.svg`} alt="facebook" /></Link></li>
+                                <li><Link href="#"> <CustomImage src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/twitter.svg`} alt="twitter" /></Link></li>
+                                <li><Link href="#"> <CustomImage src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/linkedin.svg`} alt="linkedin" /></Link></li>
+                                <li><Link href="#"> <CustomImage src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/instagram.svg`} alt="instagram" /></Link></li>
                               
                             </ul>
                         </div>

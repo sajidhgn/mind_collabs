@@ -6,7 +6,11 @@ const OurMission = (props: any) => {
     const { about, heading, mission_title, mission_sub_title, mission_content, mission_img, quote_title, quote_content } = props;
 
     return (
-        <section className="aboutus-section bg-white">
+        <>
+         <div className="blog-detail-header">
+      <CustomImage src="/images/blog_bg.jpeg" style={{width:"100%", height:"auto", objectFit:"cover"}} />
+    </div>
+         <section className="aboutus-section bg-white">
             <Container>
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
@@ -39,6 +43,8 @@ const OurMission = (props: any) => {
                 </Row>
             </Container>
         </section>
+        </>
+       
     )
 }
 

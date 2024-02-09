@@ -1,22 +1,18 @@
 "use client";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Link from 'next/link';
 import Logo from '@/app/components/Logo';
 import CustomImage from '@/app/components/CustomImage';
 import { routes } from '@/app/routes';
 
-const Sidebar = () => {
-    const [isActive, setIsActive] = useState<any>(false);
-
-    const toggleClass = () => {
-        setIsActive((prev:any) => !prev);
-      };
+const Sidebar = (props:any) => {
+   
 
     return (
         <>
-            <div className={`sidebar ${isActive ? '' : 'active'}`}  >
+            <div className="sidebar"  >
                 <div className='sidebar-logo'><Link href={routes.home}><Logo /></Link></div>
-                <div className="sidebar-toggle" onClick={toggleClass}>
+                <div className="sidebar-toggle" id="sidebarToggle" onClick={props.actClick}>
                     <div><CustomImage src="/images/toggle-icon.svg" width={24} height={24} />
                         <CustomImage src="/images/ar-icon.svg" width={16} height={16} className="toggle-icon" /></div>
                 </div>

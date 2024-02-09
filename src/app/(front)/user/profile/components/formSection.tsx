@@ -119,13 +119,13 @@ const FormSection = () => {
                                             <InputField name="min" as="input" type="text" placeholder="MIN" />
                                         </div>
                                     </div>
-                                    <div className="form-group col-lg-2 col-md-5 col-sm-12 col-12">
-                                        <label className="text-white">Standard Rate</label>
-                                        <input type="text" value="To" className="form-control disabled text-center bg-white" disabled />
+                                    <div className="form-group col-lg-2 col-md-2 col-sm-12 col-12 hdmobile">
+                                        <label className="text-white">S</label>
+                                        <input type="text" value="To" className="form-control px-0 disabled text-center bg-white" disabled />
                                     </div>
 
                                     <div className="form-group col-lg-2 col-md-5 col-sm-12 col-12">
-                                        <label htmlFor="standard_rate">Standard Rate</label>
+                                        <label htmlFor="standard_rate stnd">Standard Rate</label>
                                         <div className="input-group">
                                             <span className="input-group-text" id="basic-addon1">$</span>
                                             <InputField name="max" as="input" type="text" placeholder="MAX" />

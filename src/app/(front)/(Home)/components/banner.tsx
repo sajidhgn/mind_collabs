@@ -47,16 +47,16 @@ const Banner=(props:any)=>{
                 >
                     <Form>
                     <Row>
-                      <Col lg={6} md={6} sm={12} xs={12} className="form-group">
+                      <Col lg={6} md={12} sm={12} xs={12} className="form-group">
                         <div className="input-icon">
                           <InputField name="name" as="input" type="text" icon="images/search-icon.svg" placeholder="Therapisy name, speciality, type of therapy"/>
                           
                         </div>
                       </Col>
-                      <Col lg={3} md={3} sm={6} xs={6} className="form-group">
+                      <Col lg={3} md={12} sm={12} xs={12} className="form-group">
                       <InputField name="city" as="input" type="text" placeholder="Zipcode or city"/>
                       </Col>
-                      <Col lg={3} md={3} sm={6} xs={6} className="form-group">
+                      <Col lg={3} md={12} sm={12} xs={12} className="form-group">
                         <CustomButton type="submit" text="Search" />
                       </Col>
                     </Row>

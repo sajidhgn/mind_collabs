@@ -24,6 +24,7 @@ const Components = ({ data }: any) => {
   },[])
 
 
+
   return (
     <>
 
