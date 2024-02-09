@@ -54,6 +54,7 @@ const Components = () => {
             <CustomImage src="/images/contact_banner.png" style={{ width: "100%", height: "auto", objectFit: "cover" }} alt="" />
 
             <div className="contact-form-section">
+            <div className="contact-form-section-inn">
                 <Container>
                     <Row>
                         <Col lg={7} md={11} sm={12} xs={12}>
@@ -97,6 +98,7 @@ const Components = () => {
                         </Col>
                     </Row>
                 </Container>
+            </div>
             </div>
 
         </section>

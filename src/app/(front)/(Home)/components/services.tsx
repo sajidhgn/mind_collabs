@@ -6,7 +6,7 @@ const Services = (props: any) => {
     const { our, heading, servicesList, resoureceHeading, resourceContent, buttonText, buttonLink } = props;
 
     return (
-        <section className="services-section bg-white p70">
+        <section className="services-section  p70">
             <Container>
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>

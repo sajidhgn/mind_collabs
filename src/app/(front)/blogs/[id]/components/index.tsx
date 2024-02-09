@@ -33,6 +33,7 @@ const Components = ({ data }: any) => {
       <CustomImage src={filteredData[0]?.featured_img} style={{width:"100%", height:"auto", objectFit:"cover"}} />
     </div>
     <div className="blog-details p70 pb-0">
+    <div className="blog-details-inn">
       <Container>
         <Row>
           <Col lg={12} md={12} sm={12} xs={12}>
@@ -66,6 +67,7 @@ const Components = ({ data }: any) => {
             </div>
           </Row>
         </Container>
+      </div>
       </div>
   </section>
       

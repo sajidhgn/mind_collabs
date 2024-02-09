@@ -1,5 +1,6 @@
 import "./assets/styles/styles.scss";
 
+
 export default function RootLayout({
   children,
 }: Readonly<{

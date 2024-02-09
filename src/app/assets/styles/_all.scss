@@ -105,8 +105,8 @@
     .navbar-expand-lg {
         background-color: $black3;
         border-bottom: 1px solid $gray2;
-    } 
-   
+    }
+
 
 }
 
@@ -115,39 +115,47 @@
     .navbar-expand-lg.blk {
         background-color: $black3;
         border-bottom: 1px solid $gray9;
-        .dbtn{
+
+        .dbtn {
             background-color: $orange;
             color: $white;
-            &:hover{
-                background-color: $black2;
-                color: $white;
-            }
-        }
-    }
-    .navbar-expand-lg.orange {
-        border-bottom: 1px solid $gray9;
-        .navbar-brand{
-            div{
-                color: $black2;
-            }
-        }
-        .nav-link{
-            color:$black2;
-            &:hover{
-                color:$orange;
-            }
-        }
-        .dbtn{
-            background-color: $orange;
-            color: $white;
-            &:hover{
+
+            &:hover {
                 background-color: $black2;
                 color: $white;
             }
         }
     }
 
-    section{
+    .navbar-expand-lg.orange {
+        border-bottom: 1px solid $gray9;
+
+        .navbar-brand {
+            div {
+                color: $black2;
+            }
+        }
+
+        .nav-link {
+            color: $black2;
+
+            &:hover {
+                color: $orange;
+            }
+        }
+
+        .dbtn {
+            background-color: $orange;
+            color: $white;
+
+            &:hover {
+                background-color: $black2;
+                color: $white;
+            }
+        }
+    }
+
+    section {
         overflow-x: hidden !important;
     }
 
@@ -366,6 +374,9 @@
 }
 
 .services-section {
+    background: $white url("/images/service_flower.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 
     .header-box {
         margin-bottom: 50px;
@@ -557,6 +568,10 @@
 
 // Featured Blog section
 .blog-section {
+    background: $white url("/images/blog_flower.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
     img {
         width: 100%;
     }
@@ -829,6 +844,7 @@
 }
 
 .podcasts-latest-section {
+
     .latest-podcasts {
         display: flex;
 
@@ -887,6 +903,10 @@
 
 
 .popular-episodes-section {
+    background: $white url("/images/podcast_flower.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
     h4 {
         font-size: 20px;
         @include proximanovasemi;
@@ -924,6 +944,10 @@
 // =================================
 
 .blog-banner-section {
+    background: $white url("/images/featured_blog_flower.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+
     .blogslider {
         margin-top: 80px;
 
@@ -980,6 +1004,10 @@
 // Browse section
 
 .browse-section {
+    background: $white url("/images/podcast_flower.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
     .slide-box {
         margin-top: 30px;
 
@@ -1041,8 +1069,17 @@
 // =================================
 //           BLOG DETAIL PAGE
 // =================================
+.blog-details-inn {
+    background: url(/images/podcast_flower.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 
 .blog-details {
+    background: #ffffff url(/images/featured_blog_flower.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+
     .blog-meta {
         .date-box {
             font-size: 13px;
@@ -1137,6 +1174,22 @@ form {
 }
 
 .contact-section {
+    .contact-form-section {
+
+        background: #ffffff url(/images/podcast_flower.svg);
+        background-repeat: no-repeat;
+        background-position: top right -60px;
+        background-size: 20% auto;
+
+    }
+    .contact-form-section-inn{
+      
+            background: url(/images/podcast_flower.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        
+    }
+
     .header-box {
         padding-top: 170px;
         padding-bottom: 40px;
@@ -1188,6 +1241,15 @@ form {
 // =================================
 
 .aboutus-section {
+    background: #ffffff url(/images/featured_blog_flower.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    .aboutus-section-inn{
+        background: #ffffff url(/images/podcast_flower.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    }
+    
     padding-top: 250px;
     padding-bottom: 100px;
 
@@ -1318,6 +1380,9 @@ form {
 }
 
 .our-values-two {
+    background: $white url("/images/featured_blog_flower.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
     h5 {
         font-size: 27px;
         @include chronicaldisplay;
@@ -1405,33 +1470,39 @@ form {
 
 // Sidebar Menu
 
-.wrapper.active{
+.wrapper.active {
     padding-left: 256px;
-    .sidebar-logo{
+
+    .sidebar-logo {
         padding-left: 18px !important;
     }
-    .sidebar{
+
+    .sidebar {
         width: 256px;
-        .toggle-icon{
+
+        .toggle-icon {
             transform: rotate(180deg) !important;
             -webkit-transform: rotate(180deg) !important;
             -moz-transform: rotate(180deg) !important;
             -ms-transform: rotate(180deg) !important;
             -o-transform: rotate(180deg) !important;
-}
+        }
+
         .sidebar-menu {
             width: 256px;
-            li{
-                a{
-                    span{
+
+            li {
+                a {
+                    span {
                         display: inline-block;
                         transition: all .5s ease-in-out;
                         -webkit-transition: all .5s ease-in-out;
                         -moz-transition: all .5s ease-in-out;
                         -ms-transition: all .5s ease-in-out;
                         -o-transition: all .5s ease-in-out;
-}
-                    &:after{
+                    }
+
+                    &:after {
                         opacity: 0;
                     }
                 }
@@ -1454,7 +1525,7 @@ form {
         overflow-x: hidden;
     }
 
-  
+
 
     .sidebar {
         width: 62px;
@@ -1471,8 +1542,8 @@ form {
         -moz-transition: all .3s ease-in-out;
         -ms-transition: all .3s ease-in-out;
         -o-transition: all .3s ease-in-out;
-        .left-icon
-{
+
+        .left-icon {
             width: 22px;
             height: 22px;
             background-color: $white;
@@ -1484,13 +1555,13 @@ form {
 
         .sidebar-menu {
             position: fixed;
-            
+
             left: 0;
             right: 0;
             top: 140px;
             bottom: 0;
             overflow-y: auto;
-           
+
             width: 62px;
 
             li {
@@ -1506,14 +1577,14 @@ form {
                     padding: 11px 15px;
                     position: relative;
 
-                    span{
+                    span {
                         display: none;
                         transition: all .1s ease-in-out;
                         -webkit-transition: all .1s ease-in-out;
                         -moz-transition: all .1s ease-in-out;
                         -ms-transition: all .1s ease-in-out;
                         -o-transition: all .1s ease-in-out;
-}
+                    }
 
                     &:after {
                         content: '';
@@ -1532,7 +1603,7 @@ form {
                         -moz-transform: translateY(-50%);
                         -ms-transform: translateY(-50%);
                         -o-transform: translateY(-50%);
-                        
+
                         opacity: 0;
                     }
 
@@ -1557,8 +1628,8 @@ form {
                 .toggle-icon {
                     position: absolute;
                     top: 4px;
-                   right: 0;
-}
+                    right: 0;
+                }
             }
         }
 
@@ -1570,19 +1641,21 @@ form {
             -moz-transition: all .3s ease-in-out;
             -ms-transition: all .3s ease-in-out;
             -o-transition: all .3s ease-in-out;
-}
+        }
     }
 
-    .user-detail{
+    .user-detail {
         display: flex;
         column-gap: 30px;
         padding-top: 40px;
-        h5{
+
+        h5 {
             @include albra;
             font-size: 31px;
             color: $black2;
         }
-        p{
+
+        p {
             @include albrathin;
             font-size: 17px;
             color: $black2;
@@ -1590,29 +1663,31 @@ form {
             margin-top: 5px;
         }
     }
-  
 
-    .section-header{
+
+    .section-header {
         margin-top: 100px;
-        h5{
+
+        h5 {
             @include albralight;
             font-size: 23px;
             color: $black2;
         }
     }
 
-    .user-form{
-        .form-group{
+    .user-form {
+        .form-group {
             margin-top: 30px;
-            label:first-child{
+
+            label:first-child {
                 margin-bottom: 5px;
                 display: block;
             }
         }
 
-        .checkboxsec{
-           
-            input[type="checkbox"] ,
+        .checkboxsec {
+
+            input[type="checkbox"],
             input[type="radio"] {
                 appearance: none;
                 -webkit-appearance: none;
@@ -1622,13 +1697,15 @@ form {
                 border: 1px solid #ccc;
                 outline: none;
                 cursor: pointer;
-              }
-            
-              /* Style the checked state */
-             
+            }
+
+            /* Style the checked state */
+
         }
-        .input-group{
+
+        .input-group {
             flex-wrap: initial !important;
+
             .input-group-text {
                 width: 48px;
                 text-align: center;
@@ -1642,45 +1719,53 @@ form {
                 color: $gray5;
             }
         }
-        .form-control.disabled{
-            background-color:  $white !important;
+
+        .form-control.disabled {
+            background-color: $white !important;
         }
-        .dbtn{
+
+        .dbtn {
             @include proximanova;
-            img{
+
+            img {
                 filter: brightness(0) invert(1);
                 -webkit-filter: brightness(0) invert(1);
-}
+            }
         }
     }
 
 
-    
+
 }
-.form-check{
+
+.form-check {
     display: flex;
     align-items: center;
     column-gap: 15px;
     margin-top: 5px;
 }
-.form-check-input:checked{
+
+.form-check-input:checked {
     background-color: $orange2 !important;
 }
-input[type="checkbox"] + label {
-        @include proximanova;
-        font-size: 15px;       
+
+input[type="checkbox"]+label {
+    @include proximanova;
+    font-size: 15px;
 }
 
-.online-schedule{
+.online-schedule {
     border-left: 6px solid $orange2;
     padding-left: 15px;
-    h6{
+
+    h6 {
         @include proximanovasemi;
-        font-size: 15px;       
+        font-size: 15px;
     }
-    p{
+
+    p {
         @include proximanova;
-        font-size: 15px;    
+        font-size: 15px;
         margin-top: 10px;
         color: $gray5;
     }

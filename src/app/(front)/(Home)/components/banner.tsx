@@ -5,6 +5,7 @@ import CustomButton from "@/app/components/CustomButton";
 import * as Yup from "yup";
 import {Form, Formik} from "formik";
 
+
 const Banner=(props:any)=>{
 
     const {heading, subHeading, content} =  props;
@@ -36,7 +37,9 @@ const Banner=(props:any)=>{
           <Row className="justify-content-center">
             <Col lg={8} md={11} sm={12} xs={12}>
               <div className="banner-detail">
+              
                 <h1>{heading}</h1>
+                
                 <div className="banner-content">
                   <h6>{subHeading}</h6>
                   <p>{content}</p>

@@ -9,7 +9,7 @@ const Blogs=(props:any)=>{
     const {featured_bg, read_our, heading, content, featured_blog_img, featured_blog_heading, featured_blog_content, featured_blog_link, blogs_list } = props;
 
     return(
-        <section className="blog-section bg-white p70 pt-0">
+        <section className="blog-section p70 pt-0">
         <div className="featured-image">
 
             <CustomImage src={featured_bg} style={{width:"100%", height:"auto"}} />
