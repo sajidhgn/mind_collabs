@@ -6,6 +6,8 @@ import SelectField from "@/app/components/Form/components/selectField";
 import TextareaField from "@/app/components/Form/components/textAreaField";
 import * as Yup from "yup";
 import { Form, Formik } from "formik";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 
 const Components = () => {
@@ -58,13 +60,16 @@ const Components = () => {
                 <Container>
                     <Row>
                         <Col lg={7} md={11} sm={12} xs={12}>
+                        <ScrollAnimation animateIn="animate__fadeIn">
                             <div className="header-box">
                                 <h3>Contact us</h3>
                                 <p>We‘re here for you. Make sure your email goes to the right place, please use this form below.</p>
                             </div>
+                            </ScrollAnimation>
 
                         </Col>
                         <Col lg={12} md={12} sm={12} xs={12}>
+                        <ScrollAnimation animateIn="animate__fadeInUp">
                             <Formik
                                 initialValues={initialValues}
                                 validationSchema={validationSchema}
@@ -95,6 +100,7 @@ const Components = () => {
                                     </div>
                                 </Form>
                             </Formik>
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                 </Container>

@@ -4,6 +4,8 @@ import CustomImage from "@/app/components/CustomImage";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import { routes } from "@/app/routes";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 
 const BlogsGrid = (props: any) => {
@@ -16,11 +18,14 @@ const BlogsGrid = (props: any) => {
         <Container>
           <Row className="justify-content-between">
             <Col lg={6} md={6} sm={12} xs={12} className="my-auto">
+            <ScrollAnimation animateIn="animate__fadeInLeft">
               <div className="header-box">
                 <h3>{heading}</h3>
               </div>
+              </ScrollAnimation>
             </Col>
             <Col lg={4} md={4} sm={12} xs={12} className="my-auto">
+            <ScrollAnimation animateIn="animate__fadeInRight">
               <form>
                 <div className="form-group mb-0">
                   <div className="input-icon">
@@ -29,12 +34,14 @@ const BlogsGrid = (props: any) => {
                   </div>
                 </div>
               </form>
+              </ScrollAnimation>
             </Col>
           </Row>
           <Row>
             {
               blogs_list && blogs_list.map((item: any, index: any) => (
-                <Col lg={3} md={6} sm={12} xs={12} key={index}>
+                <ScrollAnimation animateIn="animate__fadeInUp" key={index} className="col-lg-3 col-md-6 col-sm-12 col-12">
+               
                   <div className="slide-box">
                     <Link href={{
                       pathname: `${routes.blogs}/` + item?.heading.replace(/\s+/g, '-').toLowerCase(),
@@ -47,7 +54,8 @@ const BlogsGrid = (props: any) => {
                       </div>
                     </Link>
                   </div>
-                </Col>
+               
+                </ScrollAnimation>
               ))
             }
 
@@ -55,7 +63,9 @@ const BlogsGrid = (props: any) => {
           </Row>
           <Row>
             <div className="col-12 text-center p70 pb-0">
+            <ScrollAnimation animateIn="animate__bounce">
               <Link href={routes.blogs} className="btn dbtn black">Load more blogs</Link>
+              </ScrollAnimation>
             </div>
           </Row>
         </Container>

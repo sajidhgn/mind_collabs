@@ -7,6 +7,8 @@ import CustomImage from "@/app/components/CustomImage";
 import Link from "next/link";
 import { routes } from "@/app/routes";
 import parse from "html-react-parser";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 
 const Components = ({ data }: any) => {
@@ -39,10 +41,13 @@ const Components = ({ data }: any) => {
           <Col lg={12} md={12} sm={12} xs={12}>
            
               <div className="blog-meta p70 pt-0">
+              <ScrollAnimation animateIn="animate__fadeIn">
                 <span className="date-box">{filteredData[0]?.duration} | {filteredData[0]?.date}</span>
                 <h4>{filteredData[0]?.heading}</h4>
                 <span className="blog-category date-box">By {filteredData[0]?.post_by}</span>
+                </ScrollAnimation>
               </div>
+              <ScrollAnimation animateIn="animate__fadeInUp">
               <div className="blog-detail-content">
               <div className="blog-paragraphs-1">
               {parse(`${filteredData[0]?.long_description}`)}
@@ -61,9 +66,12 @@ const Components = ({ data }: any) => {
               {parse(`${filteredData[0]?.long_description}`)}
               </div>
               </div>
+              </ScrollAnimation>
             </Col>
             <div className="blog-back">
+            <ScrollAnimation animateIn="animate__bounce">
               <Link href={routes.blogs} className="btn dbtn black"> <div className="d-flex align-items-center gap-4"><CustomImage src="/images/left-long-arrow.svg" width={32} height={14} /> Back to Blog Index</div></Link>
+            </ScrollAnimation>
             </div>
           </Row>
         </Container>

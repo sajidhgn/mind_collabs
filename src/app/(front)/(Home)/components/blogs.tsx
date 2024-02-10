@@ -3,6 +3,8 @@ import CustomImage from "@/app/components/CustomImage";
 import parse from "html-react-parser";
 import Link from "next/link";
 import { routes } from "@/app/routes";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 const Blogs=(props:any)=>{
 
@@ -19,13 +21,18 @@ const Blogs=(props:any)=>{
             <Col lg={12} md={12} sm={12} xs={12}>
               <div className="blog-feauted-content">
                 <div className="header-box">
+                <ScrollAnimation animateIn="animate__fadeIn">
                   <span>{read_our}</span>
                   <h3>{heading}</h3>
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="animate__fadeInUp">
                   <p>{parse(`${content}`)}</p>
+                  </ScrollAnimation>
                 </div>
                 <div className="featured-detail">
                   <div className="row">
                     <Col lg={7} md={12} sm={12} xs={12}>
+                    <ScrollAnimation animateIn="animate__fadeInLeft">
                       <div className="blog-box">
                         <Link href={featured_blog_link}>
                          
@@ -37,8 +44,10 @@ const Blogs=(props:any)=>{
                           </div>
                         </Link>
                       </div>
+                      </ScrollAnimation>
                     </Col>
                     <Col lg={5} md={12} sm={12} xs={12}>
+                    <ScrollAnimation animateIn="animate__fadeInRight">
                       <div className="blogs-list">
                         {
                             blogs_list&&blogs_list.map((item:any,index:any)=>(
@@ -54,12 +63,15 @@ const Blogs=(props:any)=>{
                             ))
                         }
                       </div>
+                      </ScrollAnimation>
                     </Col>
                   </div>
                 </div>
               </div>
               <div className="text-center">
+              <ScrollAnimation animateIn="animate__bounce">
                 <Link href={routes.blogs} className="btn dbtn">Explore all blogs posts</Link>
+                </ScrollAnimation>
               </div>
             </Col>
           </Row>

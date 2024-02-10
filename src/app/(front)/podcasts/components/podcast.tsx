@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import CustomImage from "@/app/components/CustomImage";
 import parse from "html-react-parser";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 const Podcast = (props:any) => {
 
@@ -21,10 +23,12 @@ const Podcast = (props:any) => {
                             <div className="podcast-headphone">
                                     <CustomImage src={headphone_img} width={250} height={380} />
                             </div>
+                            <ScrollAnimation animateIn="animate__fadeIn">
                             <div className="header-box">
                                 <span>{latest}</span>
                                 <h3>{parse(`${heading}`)}</h3>
                             </div>
+                            </ScrollAnimation>
                         </div>
                     </Col>
 
@@ -35,12 +39,14 @@ const Podcast = (props:any) => {
                     <Row>
                         {
                             join_community_list&&join_community_list.map((item:any, index:any)=>(
-                                <Col lg={6} md={12} sm={12} xs={12} key={index}>
+                                <ScrollAnimation animateIn="animate__fadeInUp" className="col-lg-6 col-md-12 col-sm-12 col-12" key={index}>
+                               
                                 <div className="join-community">
                                     {item?.heading?<h5>{item?.heading}</h5>:""}
                                     <p>{item?.content}</p>
                                 </div>
-                            </Col>
+                            
+                            </ScrollAnimation>
                             ))
                         }
                       

@@ -1002,7 +1002,9 @@
 }
 
 // Browse section
-
+.browse-section.form-group{
+    background: none !important;
+}
 .browse-section {
     background: $white url("/images/podcast_flower.png");
     background-repeat: no-repeat;
@@ -1244,6 +1246,7 @@ form {
     background: #ffffff url(/images/featured_blog_flower.svg);
     background-repeat: no-repeat;
     background-position: top right;
+    background-size: auto 250px ;
     .aboutus-section-inn{
         background: #ffffff url(/images/podcast_flower.png);
     background-repeat: no-repeat;

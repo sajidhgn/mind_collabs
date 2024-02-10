@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import CustomImage from "@/app/components/CustomImage";
 import Link from "next/link";
 import { routes } from "@/app/routes";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 const BlogsSlider = (props: any) => {
 
@@ -17,11 +19,13 @@ const BlogsSlider = (props: any) => {
             <Container>
                 <Row>
                     <Col lg={7} md={12} sm={12} xs={12}>
+                   
                         <div className="header-box">
                             <span>{our}</span>
                             <h3>{heading}</h3>
                             <p>{content}</p>
                         </div>
+                       
                     </Col>
                     <Col lg={12} md={12} sm={12} xs={12}>
                         <div className="blogslider position-relative">
@@ -57,7 +61,9 @@ const BlogsSlider = (props: any) => {
                             >
                                 {
                                     blogs_list && blogs_list.map((item: any, index: any) => (
-                                        <SwiperSlide key={index}>
+                                        <ScrollAnimation animateIn="animate__fadeInUp" key={index}>
+                                        <SwiperSlide>
+                                            
                                             <div className="slide-box">
                                                 <Link href={{
                                                     pathname: `${routes.blogs}/` + item?.heading.replace(/\s+/g, '-').toLowerCase(),
@@ -70,7 +76,9 @@ const BlogsSlider = (props: any) => {
                                                     </div>
                                                 </Link>
                                             </div>
+                                           
                                         </SwiperSlide>
+                                        </ScrollAnimation>
                                     ))
                                 }
 

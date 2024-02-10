@@ -1,6 +1,8 @@
 "use client";
 import { Container, Row, Col } from "react-bootstrap";
 import CustomImage from "@/app/components/CustomImage";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 const OurValues = (props: any) => {
 
@@ -12,27 +14,33 @@ const OurValues = (props: any) => {
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
                         <div className="our-values">
+                        <ScrollAnimation animateIn="animate__fadeInUp">
                             <div className="header-box">
                                 <h3>{heading}</h3>
                             </div>
+                            </ScrollAnimation>
                             <Row className="justify-content-between">
                                 <Col lg={4} md={4} sm={12} xs={12}>
                                     <div className="our-values-list">
                                         {
                                             valuesList.map((item: any, index: any) => (
-                                                <div className="values-box" key={index}>
+                                                <ScrollAnimation animateIn="animate__fadeInUp" className="values-box" key={index}>
+                                               
                                                     <div className="number">{index+1}</div>
                                                     <div>
                                                         <h6>{item?.heading}</h6>
                                                         <span>{item?.content}</span>
                                                     </div>
-                                                </div>
+                                               
+                                                </ScrollAnimation>
                                             ))
                                         }
                                     </div>
                                 </Col>
                                 <Col lg={6} md={6} sm={12} xs={12}>
+                                <ScrollAnimation animateIn="animate__zoomIn">
                                     <CustomImage src={value_img} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
+                                    </ScrollAnimation>
                                 </Col>
                             </Row>
                         </div>

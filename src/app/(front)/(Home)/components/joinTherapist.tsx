@@ -1,6 +1,8 @@
 import {Container, Row, Col} from "react-bootstrap";
 import parse from 'html-react-parser';
 import CustomButton from "@/app/components/CustomButton";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 
 const JoinTherapist=(props:any)=>{
@@ -30,15 +32,23 @@ const subBgImage = {
               <div className="therapist-content" style={subBgImage}>
                 <Row className="justify-content-center">
                   <Col lg={7} md sm xs={12}>
-                 
+                  <ScrollAnimation animateIn="animate__fadeInLeft">
                     <span className="join">{join}</span>
-                
-                   
+                   </ScrollAnimation>
+                   <ScrollAnimation animateIn="animate__fadeIn">
                     <span className="our">{our}</span>
-                    <h2>{parse(`${heading}`)}</h2>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="animate__fadeInRight">
+                    <h2 >{parse(`${heading}`)}</h2>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__fadeInUp">
                     <p>{content}
                     </p>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__bounce">
                     <CustomButton anchor="true" text={buttonText} className="yellow btn dbtn" href={buttonLink} />
+                    </ScrollAnimation>
                   </Col>
               </Row>
               </div>

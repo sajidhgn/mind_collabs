@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import CustomImage from "@/app/components/CustomImage";
 import { routes } from "@/app/routes";
+import ScrollAnimation from "sgk-react-animation-scroll";
+import "animate.css";
 
 const JoinTherapist = (props:any) => {
 
@@ -13,6 +15,7 @@ const JoinTherapist = (props:any) => {
             <Container>
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
+                    <ScrollAnimation animateIn="animate__fadeInUp">
                         <Link href={routes.contactus} className="join-directory">
                             <Row>
                                 <Col lg={4} md={4} sm={12} xs={12}>
@@ -28,6 +31,7 @@ const JoinTherapist = (props:any) => {
 
                             </Row>
                         </Link>
+                        </ScrollAnimation>
                     </Col>
 
                 </Row>
