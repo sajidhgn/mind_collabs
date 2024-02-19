@@ -21,7 +21,7 @@ const Episodes = (props: any) => {
                         <div className="episodes-list">
                             {
                                 episodes_list && episodes_list.map((item: any, index: any) => (
-                                    <ScrollAnimation animateIn="animate__fadeInUp">
+                                    <ScrollAnimation animateIn="animate__fadeInUp" key={index}>
                                     <div className="episode-box">
                                         <div>
                                             <span>Episodes {item?.count}</span>
